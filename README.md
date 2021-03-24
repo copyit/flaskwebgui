@@ -195,7 +195,7 @@ Default FlaskUI class parameters:
 
 * **socketio=SocketIO Instance** ==> Flask SocketIO instance (if specified, uses `socketio.run()` instead of `app.run()` for Flask application)
 
-Should work on windows/linux/mac with no isssues.
+Should work on windows/linux/mac with no issues.
 
 Develop your app as you would normally do, add flaskwebgui at the end or for tests.
 **flaskwebgui doesn't interfere with your way of doing a flask application** it just helps converting it into a desktop app more easily with pyinstaller or [pyvan](https://github.com/ClimenteA/pyvan).
